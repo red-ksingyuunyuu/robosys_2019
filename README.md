@@ -13,10 +13,14 @@ ONしたときは数回点滅する
 - ブレッドボード
 - ジャンパー線
 # インストール
+```
 $ git clone https://github.com/red-ksingyuunyuu/robosys_2019.git
-# 使用方法
-$ make
-$ sudo insmod myled.ko
-$ sudo chmod 666 /dev/myled0
-$ echo '1' > /dev/myled0 # LED_ON
-$ echo '0' > /dev/myled0 # LED_OFF
+```
+# 使用方法 
+```
+$ make 
+$ sudo insmod myled.ko 
+$ sudo chmod 666 /dev/myled0 
+$ echo '1' > /dev/myled0 # LED_ON 
+$ echo '0' > /dev/myled0 # LED_OFF 
+```
